@@ -11,7 +11,6 @@ public class ExecutionEngine {
 			String locator=data[i][4];
 			String locatorValue=data[i][5];
 			String parameter=data[i][6];
-			System.out.println(action +"\t"+locator+"\t"+locatorValue+"\t"+parameter);
 			switch(action) {
 				case "launchApp":
 					utils.launchApplication();

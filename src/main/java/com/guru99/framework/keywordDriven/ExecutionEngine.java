@@ -30,6 +30,7 @@ public class ExecutionEngine {
 					break;
 			}
 		}
+		System.out.println("Automation is done");
 	}
 
 }

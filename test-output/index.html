@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\Chandan\AppData\Local\Temp\testng-eclipse-1146820118\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.data.provider.demo.DataDrivenFrameworkDemo" hash-for-method="test_case_guru99_demo(Test Case Name, Test Steps No , Description, Action/Function, Locator, Locator Value, Parameter)">test_case_guru99_demo(Test Case Name, Test Steps No , Description, Action/Function, Locator, Locator Value, Parameter)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.data.provider.demo.DataDrivenFrameworkDemo" hash-for-method="test_case_guru99_demo(TC004, TS002, Select gender, selectRadio, name, rad1, female)">test_case_guru99_demo(TC004, TS002, Select gender, selectRadio, name, rad1, female)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.data.provider.demo.DataDrivenFrameworkDemo" hash-for-method="test_case_guru99_demo(TC002, TS001, Fill User Id, fillText, name, uid, mgr123)">test_case_guru99_demo(TC002, TS001, Fill User Id, fillText, name, uid, mgr123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.data.provider.demo.DataDrivenFrameworkDemo" hash-for-method="test_case_guru99_demo(TC002, TS002, Fill Password, fillText, name, password, mgr!23)">test_case_guru99_demo(TC002, TS002, Fill Password, fillText, name, password, mgr!23)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.data.provider.demo.DataDrivenFrameworkDemo" hash-for-method="test_case_guru99_demo(TC004, TS003, Fill Address , fillText, xpath, /html/body/table/tbody/tr/td/table/tbody/tr[7]/td[2]/t...)">test_case_guru99_demo(TC004, TS003, Fill Address , fillText, xpath, /html/body/table/tbody/tr/td/table/tbody/tr[7]/td[2]/t...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.data.provider.demo.DataDrivenFrameworkDemo" hash-for-method="test_case_guru99_demo(TC006, TS001, fill customer id, fillText, name, cusid, 12345)">test_case_guru99_demo(TC006, TS001, fill customer id, fillText, name, cusid, 12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.data.provider.demo.DataDrivenFrameworkDemo" hash-for-method="test_case_guru99_demo(TC003, TS001, Click on New Customer link, click, linkText, New Customer, NA)">test_case_guru99_demo(TC003, TS001, Click on New Customer link, click, linkText, New Customer, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.data.provider.demo.DataDrivenFrameworkDemo" hash-for-method="test_case_guru99_demo(TC002, TS003, Click on Login button, click, name, btnLogin, NA)">test_case_guru99_demo(TC002, TS003, Click on Login button, click, name, btnLogin, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.data.provider.demo.DataDrivenFrameworkDemo" hash-for-method="test_case_guru99_demo(TC005, TS001, Click on New Account, click, linkText, New Account, NA)">test_case_guru99_demo(TC005, TS001, Click on New Account, click, linkText, New Account, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.data.provider.demo.DataDrivenFrameworkDemo" hash-for-method="test_case_guru99_demo(TC004, TS002, Fill Date of birth, fillText, id, dob, 02012019)">test_case_guru99_demo(TC004, TS002, Fill Date of birth, fillText, id, dob, 02012019)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.data.provider.demo.DataDrivenFrameworkDemo" hash-for-method="test_case_guru99_demo(TC006, TS002, select account type, selectDropDown, name, selaccount, Current)">test_case_guru99_demo(TC006, TS002, select account type, selectDropDown, name, selaccount, Current)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.data.provider.demo.DataDrivenFrameworkDemo" hash-for-method="test_case_guru99_demo(TC004, TS004, Fill City, fillText, name, city, Delhi)">test_case_guru99_demo(TC004, TS004, Fill City, fillText, name, city, Delhi)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.data.provider.demo.DataDrivenFrameworkDemo" hash-for-method="test_case_guru99_demo(TC004, TS001, Fill customer name, fillText, name, name, Chandan kumar)">test_case_guru99_demo(TC004, TS001, Fill customer name, fillText, name, name, Chandan kumar)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.data.provider.demo.DataDrivenFrameworkDemo" hash-for-method="test_case_guru99_demo(TC001, TS001, Launch Application, launchApp, NA, NA, NA)">test_case_guru99_demo(TC001, TS001, Launch Application, launchApp, NA, NA, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.data.provider.demo.DataDrivenFrameworkDemo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_guru99_demo(Test Case Name, Test Steps No , Description, Action/Function, Locator, Locator Value, Parameter)">
+                  </a> <!-- test_case_guru99_demo(Test Case Name, Test Steps No , Description, Action/Function, Locator, Locator Value, Parameter) -->
+                  <span class="method-name">test_case_guru99_demo</span>
+                  <span class="parameters">(Test Case Name, Test Steps No , Description, Action/Function, Locator, Locator Value, Parameter)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_guru99_demo(TC004, TS002, Select gender, selectRadio, name, rad1, female)">
+                  </a> <!-- test_case_guru99_demo(TC004, TS002, Select gender, selectRadio, name, rad1, female) -->
+                  <span class="method-name">test_case_guru99_demo</span>
+                  <span class="parameters">(TC004, TS002, Select gender, selectRadio, name, rad1, female)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_guru99_demo(TC002, TS001, Fill User Id, fillText, name, uid, mgr123)">
+                  </a> <!-- test_case_guru99_demo(TC002, TS001, Fill User Id, fillText, name, uid, mgr123) -->
+                  <span class="method-name">test_case_guru99_demo</span>
+                  <span class="parameters">(TC002, TS001, Fill User Id, fillText, name, uid, mgr123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_guru99_demo(TC002, TS002, Fill Password, fillText, name, password, mgr!23)">
+                  </a> <!-- test_case_guru99_demo(TC002, TS002, Fill Password, fillText, name, password, mgr!23) -->
+                  <span class="method-name">test_case_guru99_demo</span>
+                  <span class="parameters">(TC002, TS002, Fill Password, fillText, name, password, mgr!23)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_guru99_demo(TC004, TS003, Fill Address , fillText, xpath, /html/body/table/tbody/tr/td/table/tbody/tr[7]/td[2]/t...)">
+                  </a> <!-- test_case_guru99_demo(TC004, TS003, Fill Address , fillText, xpath, /html/body/table/tbody/tr/td/table/tbody/tr[7]/td[2]/t...) -->
+                  <span class="method-name">test_case_guru99_demo</span>
+                  <span class="parameters">(TC004, TS003, Fill Address , fillText, xpath, /html/body/table/tbody/tr/td/table/tbody/tr[7]/td[2]/textarea, New delhi india)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_guru99_demo(TC006, TS001, fill customer id, fillText, name, cusid, 12345)">
+                  </a> <!-- test_case_guru99_demo(TC006, TS001, fill customer id, fillText, name, cusid, 12345) -->
+                  <span class="method-name">test_case_guru99_demo</span>
+                  <span class="parameters">(TC006, TS001, fill customer id, fillText, name, cusid, 12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_guru99_demo(TC003, TS001, Click on New Customer link, click, linkText, New Customer, NA)">
+                  </a> <!-- test_case_guru99_demo(TC003, TS001, Click on New Customer link, click, linkText, New Customer, NA) -->
+                  <span class="method-name">test_case_guru99_demo</span>
+                  <span class="parameters">(TC003, TS001, Click on New Customer link, click, linkText, New Customer, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_guru99_demo(TC002, TS003, Click on Login button, click, name, btnLogin, NA)">
+                  </a> <!-- test_case_guru99_demo(TC002, TS003, Click on Login button, click, name, btnLogin, NA) -->
+                  <span class="method-name">test_case_guru99_demo</span>
+                  <span class="parameters">(TC002, TS003, Click on Login button, click, name, btnLogin, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_guru99_demo(TC005, TS001, Click on New Account, click, linkText, New Account, NA)">
+                  </a> <!-- test_case_guru99_demo(TC005, TS001, Click on New Account, click, linkText, New Account, NA) -->
+                  <span class="method-name">test_case_guru99_demo</span>
+                  <span class="parameters">(TC005, TS001, Click on New Account, click, linkText, New Account, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_guru99_demo(TC004, TS002, Fill Date of birth, fillText, id, dob, 02012019)">
+                  </a> <!-- test_case_guru99_demo(TC004, TS002, Fill Date of birth, fillText, id, dob, 02012019) -->
+                  <span class="method-name">test_case_guru99_demo</span>
+                  <span class="parameters">(TC004, TS002, Fill Date of birth, fillText, id, dob, 02012019)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_guru99_demo(TC006, TS002, select account type, selectDropDown, name, selaccount, Current)">
+                  </a> <!-- test_case_guru99_demo(TC006, TS002, select account type, selectDropDown, name, selaccount, Current) -->
+                  <span class="method-name">test_case_guru99_demo</span>
+                  <span class="parameters">(TC006, TS002, select account type, selectDropDown, name, selaccount, Current)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_guru99_demo(TC004, TS004, Fill City, fillText, name, city, Delhi)">
+                  </a> <!-- test_case_guru99_demo(TC004, TS004, Fill City, fillText, name, city, Delhi) -->
+                  <span class="method-name">test_case_guru99_demo</span>
+                  <span class="parameters">(TC004, TS004, Fill City, fillText, name, city, Delhi)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_guru99_demo(TC004, TS001, Fill customer name, fillText, name, name, Chandan kumar)">
+                  </a> <!-- test_case_guru99_demo(TC004, TS001, Fill customer name, fillText, name, name, Chandan kumar) -->
+                  <span class="method-name">test_case_guru99_demo</span>
+                  <span class="parameters">(TC004, TS001, Fill customer name, fillText, name, name, Chandan kumar)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_guru99_demo(TC001, TS001, Launch Application, launchApp, NA, NA, NA)">
+                  </a> <!-- test_case_guru99_demo(TC001, TS001, Launch Application, launchApp, NA, NA, NA) -->
+                  <span class="method-name">test_case_guru99_demo</span>
+                  <span class="parameters">(TC001, TS001, Launch Application, launchApp, NA, NA, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Chandan\AppData\Local\Temp\testng-eclipse-1146820118\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.data.provider.demo.DataDrivenFrameworkDemo&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test_case_guru99_demo')
+data.setCell(0, 2, 'com.data.provider.demo.DataDrivenFrameworkDemo')
+data.setCell(0, 3, 2955);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test_case_guru99_demo')
+data.setCell(1, 2, 'com.data.provider.demo.DataDrivenFrameworkDemo')
+data.setCell(1, 3, 1467);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test_case_guru99_demo')
+data.setCell(2, 2, 'com.data.provider.demo.DataDrivenFrameworkDemo')
+data.setCell(2, 3, 1438);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test_case_guru99_demo')
+data.setCell(3, 2, 'com.data.provider.demo.DataDrivenFrameworkDemo')
+data.setCell(3, 3, 972);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test_case_guru99_demo')
+data.setCell(4, 2, 'com.data.provider.demo.DataDrivenFrameworkDemo')
+data.setCell(4, 3, 199);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test_case_guru99_demo')
+data.setCell(5, 2, 'com.data.provider.demo.DataDrivenFrameworkDemo')
+data.setCell(5, 3, 189);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test_case_guru99_demo')
+data.setCell(6, 2, 'com.data.provider.demo.DataDrivenFrameworkDemo')
+data.setCell(6, 3, 177);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test_case_guru99_demo')
+data.setCell(7, 2, 'com.data.provider.demo.DataDrivenFrameworkDemo')
+data.setCell(7, 3, 174);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'test_case_guru99_demo')
+data.setCell(8, 2, 'com.data.provider.demo.DataDrivenFrameworkDemo')
+data.setCell(8, 3, 151);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'test_case_guru99_demo')
+data.setCell(9, 2, 'com.data.provider.demo.DataDrivenFrameworkDemo')
+data.setCell(9, 3, 143);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'test_case_guru99_demo')
+data.setCell(10, 2, 'com.data.provider.demo.DataDrivenFrameworkDemo')
+data.setCell(10, 3, 130);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'test_case_guru99_demo')
+data.setCell(11, 2, 'com.data.provider.demo.DataDrivenFrameworkDemo')
+data.setCell(11, 3, 129);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'test_case_guru99_demo')
+data.setCell(12, 2, 'com.data.provider.demo.DataDrivenFrameworkDemo')
+data.setCell(12, 3, 128);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'test_case_guru99_demo')
+data.setCell(13, 2, 'com.data.provider.demo.DataDrivenFrameworkDemo')
+data.setCell(13, 3, 8);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.data.provider.demo.DataDrivenFrameworkDemo</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_case_guru99_demo(Test Case Name, Test Steps No , Description, Action/Function, Locator, Locator Value, Parameter)</span>
+                <span class="method-start">12015 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case_guru99_demo(TC001, TS001, Launch Application, launchApp, NA, NA, NA)</span>
+                <span class="method-start">12026 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case_guru99_demo(TC002, TS001, Fill User Id, fillText, name, uid, mgr123)</span>
+                <span class="method-start">14984 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case_guru99_demo(TC002, TS002, Fill Password, fillText, name, password, mgr!23)</span>
+                <span class="method-start">15160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case_guru99_demo(TC002, TS003, Click on Login button, click, name, btnLogin, NA)</span>
+                <span class="method-start">15354 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case_guru99_demo(TC003, TS001, Click on New Customer link, click, linkText, New Customer, NA)</span>
+                <span class="method-start">16795 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case_guru99_demo(TC004, TS001, Fill customer name, fillText, name, name, Chandan kumar)</span>
+                <span class="method-start">18265 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case_guru99_demo(TC004, TS002, Select gender, selectRadio, name, rad1, female)</span>
+                <span class="method-start">18466 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case_guru99_demo(TC004, TS002, Fill Date of birth, fillText, id, dob, 02012019)</span>
+                <span class="method-start">18598 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case_guru99_demo(TC004, TS003, Fill Address , fillText, xpath, /html/body/table/tbody/tr/td/table/tbody/tr[7]/td[2]/t...)</span>
+                <span class="method-start">18751 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case_guru99_demo(TC004, TS004, Fill City, fillText, name, city, Delhi)</span>
+                <span class="method-start">18930 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case_guru99_demo(TC005, TS001, Click on New Account, click, linkText, New Account, NA)</span>
+                <span class="method-start">19060 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case_guru99_demo(TC006, TS001, fill customer id, fillText, name, cusid, 12345)</span>
+                <span class="method-start">20032 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case_guru99_demo(TC006, TS002, select account type, selectDropDown, name, selaccount, Current)</span>
+                <span class="method-start">20162 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">20307 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

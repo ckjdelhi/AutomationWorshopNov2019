@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Dec 01 07:23:48 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>21 seconds (21213 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.data.provider.demo.DataDrivenFrameworkDemo.test_case_guru99_demo()'><b>test_case_guru99_demo</b><br>Test class: com.data.provider.demo.DataDrivenFrameworkDemo<br>Parameters: Test Case Name, Test Steps No , Description, Action/Function, Locator, Locator Value, Parameter</td>
+<td></td>
+<td>0</td>
+<td>com.data.provider.demo.DataDrivenFrameworkDemo@14acaea5</td></tr>
+<tr>
+<td title='com.data.provider.demo.DataDrivenFrameworkDemo.test_case_guru99_demo()'><b>test_case_guru99_demo</b><br>Test class: com.data.provider.demo.DataDrivenFrameworkDemo<br>Parameters: TC001, TS001, Launch Application, launchApp, NA, NA, NA</td>
+<td></td>
+<td>2</td>
+<td>com.data.provider.demo.DataDrivenFrameworkDemo@14acaea5</td></tr>
+<tr>
+<td title='com.data.provider.demo.DataDrivenFrameworkDemo.test_case_guru99_demo()'><b>test_case_guru99_demo</b><br>Test class: com.data.provider.demo.DataDrivenFrameworkDemo<br>Parameters: TC002, TS001, Fill User Id, fillText, name, uid, mgr123</td>
+<td></td>
+<td>0</td>
+<td>com.data.provider.demo.DataDrivenFrameworkDemo@14acaea5</td></tr>
+<tr>
+<td title='com.data.provider.demo.DataDrivenFrameworkDemo.test_case_guru99_demo()'><b>test_case_guru99_demo</b><br>Test class: com.data.provider.demo.DataDrivenFrameworkDemo<br>Parameters: TC002, TS002, Fill Password, fillText, name, password, mgr!23</td>
+<td></td>
+<td>0</td>
+<td>com.data.provider.demo.DataDrivenFrameworkDemo@14acaea5</td></tr>
+<tr>
+<td title='com.data.provider.demo.DataDrivenFrameworkDemo.test_case_guru99_demo()'><b>test_case_guru99_demo</b><br>Test class: com.data.provider.demo.DataDrivenFrameworkDemo<br>Parameters: TC002, TS003, Click on Login button, click, name, btnLogin, NA</td>
+<td></td>
+<td>1</td>
+<td>com.data.provider.demo.DataDrivenFrameworkDemo@14acaea5</td></tr>
+<tr>
+<td title='com.data.provider.demo.DataDrivenFrameworkDemo.test_case_guru99_demo()'><b>test_case_guru99_demo</b><br>Test class: com.data.provider.demo.DataDrivenFrameworkDemo<br>Parameters: TC003, TS001, Click on New Customer link, click, linkText, New Customer, NA</td>
+<td></td>
+<td>1</td>
+<td>com.data.provider.demo.DataDrivenFrameworkDemo@14acaea5</td></tr>
+<tr>
+<td title='com.data.provider.demo.DataDrivenFrameworkDemo.test_case_guru99_demo()'><b>test_case_guru99_demo</b><br>Test class: com.data.provider.demo.DataDrivenFrameworkDemo<br>Parameters: TC004, TS001, Fill customer name, fillText, name, name, Chandan kumar</td>
+<td></td>
+<td>0</td>
+<td>com.data.provider.demo.DataDrivenFrameworkDemo@14acaea5</td></tr>
+<tr>
+<td title='com.data.provider.demo.DataDrivenFrameworkDemo.test_case_guru99_demo()'><b>test_case_guru99_demo</b><br>Test class: com.data.provider.demo.DataDrivenFrameworkDemo<br>Parameters: TC004, TS002, Select gender, selectRadio, name, rad1, female</td>
+<td></td>
+<td>0</td>
+<td>com.data.provider.demo.DataDrivenFrameworkDemo@14acaea5</td></tr>
+<tr>
+<td title='com.data.provider.demo.DataDrivenFrameworkDemo.test_case_guru99_demo()'><b>test_case_guru99_demo</b><br>Test class: com.data.provider.demo.DataDrivenFrameworkDemo<br>Parameters: TC004, TS002, Fill Date of birth, fillText, id, dob, 02012019</td>
+<td></td>
+<td>0</td>
+<td>com.data.provider.demo.DataDrivenFrameworkDemo@14acaea5</td></tr>
+<tr>
+<td title='com.data.provider.demo.DataDrivenFrameworkDemo.test_case_guru99_demo()'><b>test_case_guru99_demo</b><br>Test class: com.data.provider.demo.DataDrivenFrameworkDemo<br>Parameters: TC004, TS003, Fill Address , fillText, xpath, /html/body/table/tbody/tr/td/table/tbody/tr[7]/td[2]/textarea, New delhi india</td>
+<td></td>
+<td>0</td>
+<td>com.data.provider.demo.DataDrivenFrameworkDemo@14acaea5</td></tr>
+<tr>
+<td title='com.data.provider.demo.DataDrivenFrameworkDemo.test_case_guru99_demo()'><b>test_case_guru99_demo</b><br>Test class: com.data.provider.demo.DataDrivenFrameworkDemo<br>Parameters: TC004, TS004, Fill City, fillText, name, city, Delhi</td>
+<td></td>
+<td>0</td>
+<td>com.data.provider.demo.DataDrivenFrameworkDemo@14acaea5</td></tr>
+<tr>
+<td title='com.data.provider.demo.DataDrivenFrameworkDemo.test_case_guru99_demo()'><b>test_case_guru99_demo</b><br>Test class: com.data.provider.demo.DataDrivenFrameworkDemo<br>Parameters: TC005, TS001, Click on New Account, click, linkText, New Account, NA</td>
+<td></td>
+<td>0</td>
+<td>com.data.provider.demo.DataDrivenFrameworkDemo@14acaea5</td></tr>
+<tr>
+<td title='com.data.provider.demo.DataDrivenFrameworkDemo.test_case_guru99_demo()'><b>test_case_guru99_demo</b><br>Test class: com.data.provider.demo.DataDrivenFrameworkDemo<br>Parameters: TC006, TS001, fill customer id, fillText, name, cusid, 12345</td>
+<td></td>
+<td>0</td>
+<td>com.data.provider.demo.DataDrivenFrameworkDemo@14acaea5</td></tr>
+<tr>
+<td title='com.data.provider.demo.DataDrivenFrameworkDemo.test_case_guru99_demo()'><b>test_case_guru99_demo</b><br>Test class: com.data.provider.demo.DataDrivenFrameworkDemo<br>Parameters: TC006, TS002, select account type, selectDropDown, name, selaccount, Current</td>
+<td></td>
+<td>0</td>
+<td>com.data.provider.demo.DataDrivenFrameworkDemo@14acaea5</td></tr>
+</table><p>
+</body>
+</html>

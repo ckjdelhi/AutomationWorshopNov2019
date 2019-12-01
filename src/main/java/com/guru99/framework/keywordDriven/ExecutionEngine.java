@@ -1,9 +1,14 @@
 package com.guru99.framework.keywordDriven;
 
+import org.openqa.selenium.WebDriver;
+
+import com.guru99.base.DriverFactory;
+
 public class ExecutionEngine {
 
 	public static void main(String[] args) throws Exception {
-		ReusableFuntion utils=new ReusableFuntion();
+		WebDriver driver=DriverFactory.getBrowser("chrome");
+		ReusableFuntion utils=new ReusableFuntion(driver);
 		
 		String[][] data=utils.fetchDataFromExcelSheet();
 		for(int i=1; i<data.length;i++) {

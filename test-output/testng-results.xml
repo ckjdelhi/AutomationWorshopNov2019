@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21213" started-at="2019-12-01T01:53:48Z" finished-at="2019-12-01T01:54:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21213" started-at="2019-12-01T01:53:48Z" finished-at="2019-12-01T01:54:09Z">
+      <class name="com.data.provider.demo.DataDrivenFrameworkDemo">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.data.provider.demo.DataDrivenFrameworkDemo@14acaea5]" name="setUp" is-config="true" duration-ms="10898" started-at="2019-12-01T01:53:48Z" finished-at="2019-12-01T01:53:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_case_guru99_demo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.data.provider.demo.DataDrivenFrameworkDemo@14acaea5]" name="test_case_guru99_demo" duration-ms="8" started-at="2019-12-01T01:54:00Z" data-provider="Guru99Data" finished-at="2019-12-01T01:54:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Case Name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test Steps No ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Description]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Action/Function]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Locator]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Locator Value]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Parameter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_guru99_demo -->
+        <test-method status="PASS" signature="test_case_guru99_demo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.data.provider.demo.DataDrivenFrameworkDemo@14acaea5]" name="test_case_guru99_demo" duration-ms="2955" started-at="2019-12-01T01:54:00Z" data-provider="Guru99Data" finished-at="2019-12-01T01:54:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TS001]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Launch Application]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[launchApp]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_guru99_demo -->
+        <test-method status="PASS" signature="test_case_guru99_demo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.data.provider.demo.DataDrivenFrameworkDemo@14acaea5]" name="test_case_guru99_demo" duration-ms="174" started-at="2019-12-01T01:54:03Z" data-provider="Guru99Data" finished-at="2019-12-01T01:54:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TS001]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fill User Id]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[fillText]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[uid]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[mgr123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_guru99_demo -->
+        <test-method status="PASS" signature="test_case_guru99_demo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.data.provider.demo.DataDrivenFrameworkDemo@14acaea5]" name="test_case_guru99_demo" duration-ms="189" started-at="2019-12-01T01:54:03Z" data-provider="Guru99Data" finished-at="2019-12-01T01:54:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TS002]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fill Password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[fillText]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[mgr!23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_guru99_demo -->
+        <test-method status="PASS" signature="test_case_guru99_demo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.data.provider.demo.DataDrivenFrameworkDemo@14acaea5]" name="test_case_guru99_demo" duration-ms="1438" started-at="2019-12-01T01:54:03Z" data-provider="Guru99Data" finished-at="2019-12-01T01:54:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TS003]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Click on Login button]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[btnLogin]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_guru99_demo -->
+        <test-method status="PASS" signature="test_case_guru99_demo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.data.provider.demo.DataDrivenFrameworkDemo@14acaea5]" name="test_case_guru99_demo" duration-ms="1467" started-at="2019-12-01T01:54:05Z" data-provider="Guru99Data" finished-at="2019-12-01T01:54:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TS001]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Click on New Customer link]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[linkText]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[New Customer]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_guru99_demo -->
+        <test-method status="PASS" signature="test_case_guru99_demo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.data.provider.demo.DataDrivenFrameworkDemo@14acaea5]" name="test_case_guru99_demo" duration-ms="199" started-at="2019-12-01T01:54:06Z" data-provider="Guru99Data" finished-at="2019-12-01T01:54:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TS001]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fill customer name]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[fillText]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Chandan kumar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_guru99_demo -->
+        <test-method status="PASS" signature="test_case_guru99_demo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.data.provider.demo.DataDrivenFrameworkDemo@14acaea5]" name="test_case_guru99_demo" duration-ms="130" started-at="2019-12-01T01:54:06Z" data-provider="Guru99Data" finished-at="2019-12-01T01:54:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TS002]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Select gender]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[selectRadio]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[rad1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_guru99_demo -->
+        <test-method status="PASS" signature="test_case_guru99_demo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.data.provider.demo.DataDrivenFrameworkDemo@14acaea5]" name="test_case_guru99_demo" duration-ms="151" started-at="2019-12-01T01:54:06Z" data-provider="Guru99Data" finished-at="2019-12-01T01:54:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TS002]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fill Date of birth]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[fillText]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[id]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[dob]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[02012019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_guru99_demo -->
+        <test-method status="PASS" signature="test_case_guru99_demo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.data.provider.demo.DataDrivenFrameworkDemo@14acaea5]" name="test_case_guru99_demo" duration-ms="177" started-at="2019-12-01T01:54:07Z" data-provider="Guru99Data" finished-at="2019-12-01T01:54:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TS003]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fill Address ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[fillText]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[/html/body/table/tbody/tr/td/table/tbody/tr[7]/td[2]/textarea]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[New delhi india]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_guru99_demo -->
+        <test-method status="PASS" signature="test_case_guru99_demo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.data.provider.demo.DataDrivenFrameworkDemo@14acaea5]" name="test_case_guru99_demo" duration-ms="128" started-at="2019-12-01T01:54:07Z" data-provider="Guru99Data" finished-at="2019-12-01T01:54:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TS004]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fill City]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[fillText]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[city]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_guru99_demo -->
+        <test-method status="PASS" signature="test_case_guru99_demo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.data.provider.demo.DataDrivenFrameworkDemo@14acaea5]" name="test_case_guru99_demo" duration-ms="972" started-at="2019-12-01T01:54:07Z" data-provider="Guru99Data" finished-at="2019-12-01T01:54:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC005]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TS001]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Click on New Account]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[linkText]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[New Account]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_guru99_demo -->
+        <test-method status="PASS" signature="test_case_guru99_demo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.data.provider.demo.DataDrivenFrameworkDemo@14acaea5]" name="test_case_guru99_demo" duration-ms="129" started-at="2019-12-01T01:54:08Z" data-provider="Guru99Data" finished-at="2019-12-01T01:54:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC006]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TS001]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fill customer id]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[fillText]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[cusid]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_guru99_demo -->
+        <test-method status="PASS" signature="test_case_guru99_demo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.data.provider.demo.DataDrivenFrameworkDemo@14acaea5]" name="test_case_guru99_demo" duration-ms="143" started-at="2019-12-01T01:54:08Z" data-provider="Guru99Data" finished-at="2019-12-01T01:54:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC006]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TS002]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[select account type]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[selectDropDown]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[selaccount]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Current]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_guru99_demo -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.data.provider.demo.DataDrivenFrameworkDemo@14acaea5]" name="close" is-config="true" duration-ms="895" started-at="2019-12-01T01:54:08Z" finished-at="2019-12-01T01:54:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.data.provider.demo.DataDrivenFrameworkDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
